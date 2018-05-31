@@ -7,7 +7,8 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>questionnaire</ion-title>
+    <ion-title>{{ 'QUESTIONNAIRE' | translate }}</ion-title>
+    <!--<ion-title>Questionnaire</ion-title>-->
   </ion-navbar>
 
 </ion-header>
@@ -16,17 +17,11 @@
 <ion-content padding>
   <ion-slides>
     <ion-slide *ngFor="let qr of questionnaires">
-      <p>{{qr.title}}</p>
-      <div *ngFor="let q of qr.questions">
-        <p>{{q.question}}</p>
-        <div *ngFor="let c of q.choices">
-          <p>{{c.answer}}</p>
-        </div>
-      </div>
-    </ion-slide>
-    <ion-slide>
-    </ion-slide>
-    <ion-slide>
+      <h2>{{qr.title}}</h2>
+      <ion-list *ngFor="let q of qr.questions">
+        <ion-list-header>{{q.question}}</ion-list-header>
+        <ion-item *ngFor="let c of q.choices">{{c.answer}}</ion-item>
+      </ion-list>
     </ion-slide>
   </ion-slides>
 
