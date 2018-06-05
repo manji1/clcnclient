@@ -18,16 +18,12 @@
     <ion-textarea placeholder="{{ 'INPUT_QUESTION' | translate }}"></ion-textarea>
   </ion-item>
 
-  <ion-list>
-    <ion-list-header>
-      {{ 'CHOICE' | translate }}
-      <ion-buttons end>
-        <button ion-button icon-only (click)="addChoice()">
-          <ion-icon name="add"></ion-icon>
-        </button>
-      </ion-buttons>
-    </ion-list-header>
+  <button ion-button icon-left full (click)="addChoice()">
+    <ion-icon name="add-circle"></ion-icon>
+    {{ 'ADD_CHOICE'| translate }}
+  </button>
 
+  <ion-list>
     <ion-item-sliding *ngFor="let choice of choices">
       <ion-input>{{choice.answer}}</ion-input>
     </ion-item-sliding>

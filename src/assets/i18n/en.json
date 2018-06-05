@@ -12,5 +12,6 @@
   "QUESTIONNAIRE_CREATE": "Questionnaire",
   "CHOICE": "Choices",
   "CHOICE_CREATE": "Choice",
+  "ADD_CHOICE": "Add choice",
   "IMAGE_SELECT": "Select image"
 }

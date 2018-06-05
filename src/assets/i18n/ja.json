@@ -12,5 +12,6 @@
   "QUESTIONNAIRE_CREATE": "アンケート作成",
   "CHOICE": "選択肢",
   "CHOICE_CREATE": "選択肢",
+  "ADD_CHOICE": "選択肢を追加",
   "IMAGE_SELECT": "画像選択"
 }
