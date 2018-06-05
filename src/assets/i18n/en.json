@@ -1,6 +1,16 @@
 {
+  "DETERMINE": "Determine",
+  "CANCEL": "Cancel",
   "QUESTIONNAIRE": "Questionnaire",
+  "QUESTION": "Question",
+  "INPUT_QUESTION": "Enter the question",
   "SINGLE_CHOICE": "Single Select",
   "MULTI_CHOICE": "Multiple Select",
-  "IMG_CHOICE": "Image Select"
+  "IMAGE_CHOICE": "Image Select",
+  "TITLE": "Title",
+  "INPUT_TITLE": "Enter the title.",
+  "QUESTIONNAIRE_CREATE": "Questionnaire",
+  "CHOICE": "Choices",
+  "CHOICE_CREATE": "Choice",
+  "IMAGE_SELECT": "Select image"
 }

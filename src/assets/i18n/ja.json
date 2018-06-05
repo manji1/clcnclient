@@ -1,6 +1,16 @@
 {
+  "DETERMINE": "決定",
+  "CANCEL": "キャンセル",
   "QUESTIONNAIRE": "アンケート",
+  "QUESTION": "質問",
+  "INPUT_QUESTION": "質問を入力してください",
   "SINGLE_CHOICE": "単一選択",
   "MULTI_CHOICE": "複数選択",
-  "IMG_CHOICE": "画像選択"
+  "IMAGE_CHOICE": "画像選択",
+  "TITLE": "タイトル",
+  "INPUT_TITLE": "タイトルを入力してください。",
+  "QUESTIONNAIRE_CREATE": "アンケート作成",
+  "CHOICE": "選択肢",
+  "CHOICE_CREATE": "選択肢",
+  "IMAGE_SELECT": "画像選択"
 }

@@ -9,7 +9,7 @@ import {ContactPage} from '../contact/contact';
 export class TabsPage {
 
   tab1Root = 'QuestionnairePage';
-  tab2Root = 'CreateQuestionnairePage';
+  tab2Root = 'QuestionnaireCreatePage';
   tab3Root = AboutPage;
   tab4Root = ContactPage;
 
